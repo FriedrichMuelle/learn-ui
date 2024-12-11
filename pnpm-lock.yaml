@@ -71,6 +71,9 @@ importers:
       puppeteer:
         specifier: ^23.6.0
         version: 23.6.0(typescript@5.5.3)
+      sharp:
+        specifier: ^0.33.2
+        version: 0.33.4
       tailwindcss:
         specifier: 3.4.6
         version: 3.4.6(ts-node@10.9.2(@types/node@20.11.27)(typescript@5.5.3))
@@ -14153,7 +14156,7 @@ snapshots:
     dependencies:
       color: 4.2.3
       detect-libc: 2.0.3
-      semver: 7.6.2
+      semver: 7.6.3
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.4
       '@img/sharp-darwin-x64': 0.33.4
@@ -14174,7 +14177,6 @@ snapshots:
       '@img/sharp-wasm32': 0.33.4
       '@img/sharp-win32-ia32': 0.33.4
       '@img/sharp-win32-x64': 0.33.4
-    optional: true
 
   shebang-command@1.2.0:
     dependencies:
